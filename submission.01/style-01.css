@@ -1,0 +1,47 @@
+/* Styling for the navigation table */
+.navigation-table {
+    width: 100%;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.navigation-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.navigation-table a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-table a:hover {
+    background-color: #2980b9;
+}
+
+.vertical-navigation-table {
+    float: left;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: 20px; /* Add margin to separate the two tables */
+}
+
+.vertical-navigation-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.vertical-navigation-table a {
+    text-decoration: none;
+    color: white;
+}
+
+.vertical-navigation-table a:hover {
+    background-color: #2980b9;
+}
